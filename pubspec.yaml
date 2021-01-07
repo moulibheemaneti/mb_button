@@ -1,8 +1,8 @@
 name: mb_button
 description: A new button which requires d
 version: 0.0.1
-author: Mouli Bheemaneti
-homepage:
+author: Mouli Bheemaneti <moulibheemaneti99@gmail.com>
+homepage: https://github.com/moulibheemaneti/mb_button.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
