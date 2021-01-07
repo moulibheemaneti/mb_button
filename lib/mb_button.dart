@@ -1,7 +1,6 @@
 library mb_button;
 
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
 
 class MBButton extends StatefulWidget {
   final String text;
@@ -32,7 +31,6 @@ class _MBButtonState extends State<MBButton> {
         elevation: 5.0,
         textColor: widget.textColor != null ? widget.textColor : Colors.white,
         onPressed: () {
-          // this function is called when the button is clicked
           widget.onTapFunction;
         },
         shape: RoundedRectangleBorder(
