@@ -30,9 +30,7 @@ class _MBButtonState extends State<MBButton> {
       child: new RaisedButton(
         elevation: 5.0,
         textColor: widget.textColor != null ? widget.textColor : Colors.white,
-        onPressed: () {
-          widget.onTapFunction;
-        },
+        onPressed: widget.onTapFunction,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
