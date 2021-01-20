@@ -1,6 +1,6 @@
 name: mb_button
-description: A new button which requires only few changes to get your desired button
-version: 0.0.2
+description: A new button which requires only few changes to get your desired button.
+version: 0.0.3
 #author: Mouli Bheemaneti <moulibheemaneti99@gmail.com>
 homepage: https://github.com/moulibheemaneti/mb_button.git
 
@@ -8,6 +8,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0"
 
+# Using only inbuilt flutter packages.
 dependencies:
   flutter:
     sdk: flutter
