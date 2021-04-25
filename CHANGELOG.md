@@ -1,4 +1,4 @@
-# [0.0.4] - 25 April 2021
+# [1.1] - 25 April 2021
 
 * CHANGES: Updated to Flutter 2.0 and customized the button widget as accordingly. Now you could use this package as it is error free.
 
