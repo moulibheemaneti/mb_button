@@ -1,11 +1,15 @@
+# [0.0.4] - 25 April 2021
+
+* CHANGES: Updated to Flutter 2.0 and customized the button widget as accordingly
+
 # [0.0.3] - 20 January 2021
 
-* TODO: Did more customization for users
+* CHANGES: Did more customization for users
 
 ## [0.0.2] - TODO: Add release date
 
-* TODO: Edited few comments
+* CHANGES: Edited few comments
 
 ## [0.0.1] - TODO: Add release date
 
-* TODO: Raw release. More updates in future versions
+* CHANGES: Raw release. More updates in future versions

@@ -52,16 +52,20 @@ class _MBButtonState extends State<MBButton> {
           : Colors.blue.withOpacity(0.5),
       buttonColor:
           widget.buttonColor != null ? widget.buttonColor : Colors.blue,
-      child: new RaisedButton(
-        elevation: widget.elevation != null ? widget.elevation : 5.0,
-        textColor: widget.textColor != null ? widget.textColor : Colors.white,
-        // when the button is pressed, [widget.onTapFunction] is called.
-        onPressed: widget.onTapFunction,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(
-            widget.roundness != null ? widget.roundness : 0,
+      child: new ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          elevation: widget.elevation != null ? widget.elevation : 5.0,
+          primary:
+              widget.buttonColor != null ? widget.buttonColor : Colors.blue,
+          onPrimary: widget.textColor != null ? widget.textColor : Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(
+              widget.roundness != null ? widget.roundness : 0,
+            ),
           ),
         ),
+        // when the button is pressed, [widget.onTapFunction] is called.
+        onPressed: widget.onTapFunction,
         child: new Text(
           widget.text,
           style: TextStyle(
@@ -69,7 +73,6 @@ class _MBButtonState extends State<MBButton> {
             fontWeight: FontWeight.w500,
           ),
         ),
-        color: widget.buttonColor != null ? widget.buttonColor : Colors.blue,
       ),
     );
   }
