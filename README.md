@@ -9,6 +9,7 @@
 * [General info](#general-info)
 * [Setup](#setup)
 * [Conclusion](#conclusion)
+* [Useful Resources](#useful-resources)
 
 ## General info
 **mb_button** is a third part flutter package. This is a simple version of buttons. This can be easily added to your flutter projects and make your works simpler and your code shorter. This is recently updated and has null safety too.
@@ -37,3 +38,6 @@ import 'package:mb_button/mb_button.dart';
 
 ## Conclusion
 This is not the last package from this developer. Maybe this solely can't be updated frequently but still it is worth using this package. This helps to reduce your code lines.
+
+## Useful Resources
+* [Example](https://pub.dev/packages/mb_button/example)
