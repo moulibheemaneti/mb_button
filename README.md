@@ -8,7 +8,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
-** [Run this command](#run-this-command)
 
 ## General info
 **mb_button** is a third part flutter package. This is a simple version of buttons. This can be easily added to your flutter projects and make your works simpler and your code shorter. This is recently updated and has null safety too.
