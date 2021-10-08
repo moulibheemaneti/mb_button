@@ -1,15 +1,19 @@
-# [1.0.1] - 25 April 2021
+## [1.0.2] - 25 April 2021
+### Release Notes:
+* 
 
-* CHANGES: Updated to Flutter 2.0 and customized the button widget as accordingly. Now you could use this package as it is error free.
+## [1.0.1] - 25 April 2021
+### Release Notes:
+* Updated to Flutter 2.0 and customized the button widget as accordingly. Now you could use this package as it is error free.
 
-# [0.0.3] - 20 January 2021
-
-* CHANGES: Did more customization for users
+## [0.0.3] - 20 January 2021
+### Release Notes:
+* Did more customization for users
 
 ## [0.0.2] - TODO: Add release date
-
-* CHANGES: Edited few comments
+### Release Notes:
+* Edited few comments
 
 ## [0.0.1] - TODO: Add release date
-
-* CHANGES: Raw release. More updates in future versions
+### Release Notes:
+* Raw release. More updates in future versions
