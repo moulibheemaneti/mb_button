@@ -13,11 +13,22 @@
 **mb_button** is a third part flutter package. This is a simple version of buttons. This can be easily added to your flutter projects and make your works simpler and your code shorter. This is recently updated and has null safety too.
 	
 ## Setup
-To run this project, install it locally using npm:
-A new customized button developed by Mouli Bheemaneti. Now this widget is updated after the release of Flutter 2. So this is safe to use and an updated widget. Used only inbuilt widgets to develop this new customized widget.You will get more updates on this widget in future.
 
+#####Run this command:
+With Flutter:
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+$ flutter pub add mb_button
+```
+
+This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
+```
+dependencies:
+  mb_button: ^1.0.1
+```
+Alternatively, your editor might support or flutter pub get. Check the docs for your editor to learn more.
+
+#####Import it
+Now in your Dart code, you can use:
+```
+import 'package:mb_button/mb_button.dart';
 ```
