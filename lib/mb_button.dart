@@ -11,6 +11,7 @@ class MBButton extends StatefulWidget {
   final Color textColor;
   final Color buttonColor;
   final Icon icon;
+  final bool isIconButton;
   final Function onTapFunction;
   final double verticalPadding;
   final double horizontalPadding;
@@ -21,6 +22,7 @@ class MBButton extends StatefulWidget {
     this.textColor,
     this.buttonColor,
     this.icon,
+    this.isIconButton,
     this.verticalPadding,
     this.horizontalPadding,
     this.roundness,
