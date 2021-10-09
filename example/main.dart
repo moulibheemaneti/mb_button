@@ -32,15 +32,17 @@ class MBButtonDemo extends StatefulWidget {
 }
 
 class _MBButtonDemoState extends State<MBButtonDemo> {
+  /// late modifier ensures that the variable _counter wait till it gets initialized.
   late int _counter;
 
   @override
   void initState() {
+    /// Everytime the application is reset, _counter is set to 0.
     _counter = 0;
     super.initState();
   }
 
-  // This function '_incrementCounter' Increments the _counter by 1
+  /// This function '_incrementCounter' Increments the _counter by 1
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -51,12 +53,14 @@ class _MBButtonDemoState extends State<MBButtonDemo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          // title: Text(widget.title),
-          ),
+        /// Fetches the title from it's parent widget.
+        title: Text(widget.title.toString()),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            /// Use of MBButton
             MBButton(
               text: "Click Here",
               onTapFunction: _incrementCounter,
@@ -67,6 +71,8 @@ class _MBButtonDemoState extends State<MBButtonDemo> {
               roundness: 50,
               elevation: 3,
             ),
+
+            /// Display the value on the screen
             Text(
               "$_counter",
               style: const TextStyle(fontSize: 30),

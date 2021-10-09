@@ -1,6 +1,7 @@
 ## [1.0.2] - 25 April 2021
 ### Release Notes:
-* 
+* Migrated to null-safety.
+* A clear example is added in the documentation.
 
 ## [1.0.1] - 25 April 2021
 ### Release Notes:
