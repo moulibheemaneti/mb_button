@@ -1,4 +1,12 @@
-## [1.0.2] - 25 April 2021
+## [Current release]
+
+## [1.0.3] - 11 October 2021
+### Release Notes:
+* Icon button is also added as an option.
+
+## [Past releases]
+
+## [1.0.2] - 9 October 2021
 ### Release Notes:
 * Migrated to null-safety.
 * A clear example is added in the documentation.

@@ -61,8 +61,26 @@ class _MBButtonDemoState extends State<MBButtonDemo> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             /// Use of MBButton
+            /// This is elevated button without an icon on it.
             MBButton(
-              text: "Click Here",
+              text: "Add",
+              onTapFunction: _incrementCounter,
+              textColor: Colors.white,
+              buttonColor: Colors.black12,
+              verticalPadding: 40,
+              horizontalPadding: 40,
+              roundness: 50,
+              elevation: 3,
+            ),
+
+            /// Use of MBButton
+            /// This is elevated button with an icon on it.
+            MBButton(
+              isIconButton: true,
+              // Ensure that you add icon argument whenever
+              // [isIconButton] is set [true].
+              icon: Icons.add,
+              text: "Add",
               onTapFunction: _incrementCounter,
               textColor: Colors.white,
               buttonColor: Colors.black12,
