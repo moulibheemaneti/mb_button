@@ -67,7 +67,7 @@ class _MBElevatedIconButtonState extends State<MBElevatedIconButton> {
         ),
       ),
       icon: Icon(widget.icon),
-       style: ElevatedButton.styleFrom(
+      style: ElevatedButton.styleFrom(
         // Default [elevation] is 5
         elevation: widget.elevation ?? 5.0,
 
