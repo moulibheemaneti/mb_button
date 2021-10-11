@@ -28,7 +28,7 @@ $ flutter pub add mb_button
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 ```yaml
 dependencies:
-  mb_button: [check latest version](https://pub.dev/packages/mb_button/changelog)
+  mb_button: ^1.0.2 #check for latest in versions at https://pub.dev/packages/mb_button/versions
 ```
 Alternatively, your editor might support or flutter pub get. Check the docs for your editor to learn more.
 
