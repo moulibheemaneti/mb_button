@@ -127,15 +127,7 @@ class _MBButtonState extends State<MBButton> {
       // If isIconButton is set to true then MBButton's child will be
       // MBElevatedButton or else it is MBElevatedIconButton.
       child: widget.isIconButton
-          ? MBElevatedButton(
-              elevation: widget.elevation ?? 5.0,
-              roundness: widget.roundness ?? 0,
-              buttonColor: widget.buttonColor ?? Colors.blue,
-              textColor: widget.textColor ?? Colors.white,
-              text: widget.text,
-              onTapFunction: widget.onTapFunction,
-            )
-          : MBElevatedIconButton(
+          ? MBElevatedIconButton(
               icon: widget.icon ?? Icons.add,
               text: widget.text,
               onTapFunction: widget.onTapFunction,
@@ -143,6 +135,14 @@ class _MBButtonState extends State<MBButton> {
               roundness: widget.roundness ?? 0,
               buttonColor: widget.buttonColor ?? Colors.blue,
               textColor: widget.textColor ?? Colors.white,
+            )
+          : MBElevatedButton(
+              elevation: widget.elevation ?? 5.0,
+              roundness: widget.roundness ?? 0,
+              buttonColor: widget.buttonColor ?? Colors.blue,
+              textColor: widget.textColor ?? Colors.white,
+              text: widget.text,
+              onTapFunction: widget.onTapFunction,
             ),
     );
   }
