@@ -3,6 +3,7 @@
 ## [1.0.3] - 11 October 2021
 ### Release Notes:
 * Icon button is also added as an option.
+* Proper Documentation
 
 ## [Past releases]
 

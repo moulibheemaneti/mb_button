@@ -13,7 +13,8 @@
 * [Meet the developer](#meet-the-developer)
 
 ## General info
-**mb_button** is a third party flutter package. This is a simple version of buttons. This can be easily added to your flutter projects and make your works simpler and your code shorter. This is recently updated and has null safety too.
+**mb_button** is a third party flutter package. This is a simple version of buttons. This can be easily added to your flutter projects. This make your works simpler and your code shorter. This is recently updated and has null safety too. 
+You can now choose either MBButton with Icon or without Icon. No extra parameters added but the flexibility for developers is increased.
 	
 ## Setup
 These are the steps on how to use this package.
@@ -25,15 +26,15 @@ $ flutter pub add mb_button
 ```
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
-```
+```yaml
 dependencies:
-  mb_button: ^1.0.1
+  mb_button: [check latest version](https://pub.dev/packages/mb_button/changelog)
 ```
 Alternatively, your editor might support or flutter pub get. Check the docs for your editor to learn more.
 
 #### Import it
 Now in your Dart code, you can use:
-```
+```dart
 import 'package:mb_button/mb_button.dart';
 ```
 
