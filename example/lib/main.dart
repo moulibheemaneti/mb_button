@@ -7,6 +7,7 @@ void main() {
   runApp(const MyApp());
 }
 
+/// Base for the whole app.
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -23,13 +24,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// MBButton Demo class show the demo of the usage of this package - `mb_button`.
 class MBButtonDemo extends StatefulWidget {
   const MBButtonDemo({Key? key, this.title}) : super(key: key);
 
   final String? title;
 
   @override
-  _MBButtonDemoState createState() => _MBButtonDemoState();
+  State<MBButtonDemo> createState() => _MBButtonDemoState();
 }
 
 class _MBButtonDemoState extends State<MBButtonDemo> {
