@@ -1,6 +1,6 @@
 ## Current release
 
-## [1.0.4] - 11 October 2021
+## [1.0.5] - 17 October 2022
 ### Release Notes:
 * Updated Documentation
 * Replaced deprecated attributes with latest ones.
