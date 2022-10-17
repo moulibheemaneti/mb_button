@@ -2,6 +2,12 @@
 
 ## [1.0.4] - 11 October 2021
 ### Release Notes:
+* Updated Documentation
+* Replaced deprecated attributes with latest ones.
+* Updated minimum SDK version from `2.12.0` to `2.18.2` 
+
+## [1.0.4] - 11 October 2021
+### Release Notes:
 * Resolved minor bug
 
 ## [1.0.3] - 11 October 2021

@@ -59,12 +59,12 @@ class _MBElevatedButtonState extends State<MBElevatedButton> {
 
         // Default [primary] color is Colors.blue
         // [primary] means the color of the button.
-        primary: widget.buttonColor ?? Colors.blue,
+        backgroundColor: widget.buttonColor ?? Colors.blue,
 
         // Default onPrimary color is Colors.blue
         // onPrimary means, on the button.
         // So onPrimary refers to the [Color] of text displayed on the button.
-        onPrimary: widget.textColor ?? Colors.white,
+        foregroundColor: widget.textColor ?? Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
             // The shape of this button is circluar and it has no roundess by default.

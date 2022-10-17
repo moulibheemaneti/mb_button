@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:mb_button/mb_button.dart';
 
+/// Entry point of the application
 void main() {
   runApp(const MyApp());
 }
