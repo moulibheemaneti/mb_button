@@ -5,8 +5,9 @@ library mb_button;
 
 /// Use of inbuilt material.dart flutter package to build this new widget.
 import 'package:flutter/material.dart';
-import 'package:mb_button/icon_button.dart';
-import 'package:mb_button/text_button.dart';
+
+import 'icon_button.dart';
+import 'text_button.dart';
 
 ///
 /// [MBButton] is a [StatefulWidget] which returns a [ButtonTheme] widget whose
