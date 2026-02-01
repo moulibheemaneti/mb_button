@@ -6,7 +6,7 @@ homepage: https://github.com/moulibheemaneti/mb_button.git
 
 repository: https://github.com/moulibheemaneti/mb_button.git
 
-version: 3.0.0
+version: 3.0.1
 
 environment:
   sdk: ^3.10.7

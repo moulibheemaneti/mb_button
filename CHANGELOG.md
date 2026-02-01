@@ -1,6 +1,11 @@
 ## Current release
 
-## [3.0.0] - 10 June 2024
+## [3.0.1] - 01 February 2026
+### Release Notes:
+* Updated package version to 3.0.1.
+* No breaking changes;
+
+## [3.0.0] - 01 February 2026
 ### Release Notes:
 * BREAKING: Major version update to 3.0.0.
 * Updated Dart SDK constraint to ^3.10.7.
