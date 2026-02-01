@@ -24,12 +24,12 @@ class MBElevatedButton extends StatefulWidget {
   final Color? textColor;
 
   /// [text] is the value of the text which is displayed on [MBElevatedButton].
-  /// This is the [required] field, so there is no default value to it.
+  /// This is a required field, so there is no default value to it.
   final String text;
 
   /// [onTapFunction] is the function which [MBElevatedButton] has to do
   /// when the [MBButton] is tapped.
-  /// This is also the [required] field, so there is no default value to it.
+  /// This is also a required field, so there is no default value to it.
   final Function() onTapFunction;
 
   /// Without [text] and [onTapFunction] a [MBElevatedButton] doesn't exist.

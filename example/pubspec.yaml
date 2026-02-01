@@ -4,10 +4,10 @@ description: A new Flutter project to demonstrate this package(mb_button).
 
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 3.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: ^3.10.7
 
 dependencies:
   flutter:
@@ -16,7 +16,7 @@ dependencies:
     path: ../
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true

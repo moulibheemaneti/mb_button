@@ -75,7 +75,7 @@ class MBButton extends StatefulWidget {
 
   /// [onTapFunction] is the function which [MBElevatedIconButton] has to do
   /// when the [MBButton] is tapped.
-  /// This is also the [required] field, so there is no default value to it.
+  /// This is also the required field, so there is no default value to it.
   final Function() onTapFunction;
 
   /// [MBButton] decides it's child with the [isIconButton] value.
@@ -115,13 +115,13 @@ class _MBButtonState extends State<MBButton> {
 
       /// Default splashColor is Colors.blue with 0.5 opacity
       splashColor: widget.buttonColor != null
-          ? widget.buttonColor!.withOpacity(0.5)
-          : Colors.blue.withOpacity(0.5),
+          ? widget.buttonColor!.withValues(alpha: 0.5)
+          : Colors.blue.withValues(alpha: 0.5),
 
       /// Default hoverColor is Colors.blue with 0.5 opacity
       hoverColor: widget.buttonColor != null
-          ? widget.buttonColor!.withOpacity(0.5)
-          : Colors.blue.withOpacity(0.5),
+          ? widget.buttonColor!.withValues(alpha: 0.5)
+          : Colors.blue.withValues(alpha: 0.5),
 
       /// Default hoverColor is Colors.blue
       buttonColor: widget.buttonColor ?? Colors.blue,

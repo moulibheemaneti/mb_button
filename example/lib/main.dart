@@ -1,4 +1,3 @@
-/// Ensure you use the below two packages in the file which you are working on
 import 'package:flutter/material.dart';
 import 'package:mb_button/mb_button.dart';
 
@@ -9,7 +8,7 @@ void main() {
 
 /// Base for the whole app.
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
 
 /// MBButton Demo class show the demo of the usage of this package - `mb_button`.
 class MBButtonDemo extends StatefulWidget {
-  const MBButtonDemo({Key? key, this.title}) : super(key: key);
+  const MBButtonDemo({super.key, this.title});
 
   final String? title;
 
@@ -69,7 +68,7 @@ class _MBButtonDemoState extends State<MBButtonDemo> {
               text: "Add",
               onTapFunction: _incrementCounter,
               textColor: Colors.white,
-              buttonColor: Colors.black12,
+              buttonColor: Colors.cyan,
               verticalPadding: 40,
               horizontalPadding: 40,
               roundness: 50,

@@ -1,5 +1,15 @@
 ## Current release
 
+## [3.0.0] - 10 June 2024
+### Release Notes:
+* BREAKING: Major version update to 3.0.0.
+* Updated Dart SDK constraint to ^3.10.7.
+* Minimum Flutter version support adjusted to match Dart SDK.
+* Example project: Upgraded SDK and dependencies for compatibility with latest Flutter/Dart.
+* Improved documentation and example code in `example/lib/main.dart`.
+* Cleaned up and updated package metadata in pubspec.yaml.
+* Internal: Refactored and updated supporting files for consistency with latest Flutter project structure.
+
 ## [1.0.5] - 17 October 2022
 ### Release Notes:
 * Updated Documentation
