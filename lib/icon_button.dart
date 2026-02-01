@@ -29,12 +29,12 @@ class MBElevatedIconButton extends StatefulWidget {
   final IconData icon;
 
   /// [text] is the value of the text which is displayed on [MBElevatedIconButton].
-  /// This is the [required] field, so there is no default value to it.
+  /// This is the required field, so there is no default value to it.
   final String text;
 
   /// [onTapFunction] is the function which [MBElevatedIconButton] has to do
   /// when the [MBButton] is tapped.
-  /// This is also the [required] field, so there is no default value to it.
+  /// This is also the required field, so there is no default value to it.
   final Function()? onTapFunction;
 
   /// Without [icon],[text] and [onTapFunction] a [MBElevatedButton] doesn't exist.
