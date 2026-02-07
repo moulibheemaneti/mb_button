@@ -1,4 +1,3 @@
-/// [MBElevatedButton] is called when the [isIconButton] of [MBButton] is set to false.
 import 'package:flutter/material.dart';
 
 /// [MBElevatedButton] is a [StatefulWidget] which takes [elevation],

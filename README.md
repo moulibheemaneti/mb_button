@@ -48,9 +48,6 @@ This is not the last package from this developer. Maybe this solely can't be upd
 
 ## Meet the developer
 **Mouli Bheemaneti** is the developer behind this [mb_button](https://pub.dev/packages/mb_button) package. I'm ambitious and driven towards developing new apps and packages.
-* [Mouli Bheemaneti](https://www.moulibheemaneti.com)
-	* [Play Store](https://play.google.com/store/apps/dev?id=5025838786028729109)
-	* [Github](https://www.github.com/moulibheemaneti)
-	* [Behance](https://www.behance.com/moulibheemaneti)
-	* [Instagram](https://www.instagram.com/mouli.bheemaneti)
-	* [Youtube](https://www.youtube.com/bemouli)
+* [Mouli Bheemaneti](https://developer.moulibheemaneti.com) 
+	* [Github](https://www.github.com/moulibheemaneti)  
+	* [Behance](https://www.behance.com/moulibheemaneti)  
