@@ -6,10 +6,10 @@ homepage: https://github.com/moulibheemaneti/mb_button.git
 
 repository: https://github.com/moulibheemaneti/mb_button.git
 
-version: 3.0.2
+version: 3.0.3
 
 environment:
-  sdk: ^3.10.8
+  sdk: ^3.12.0
 
 dependencies:
   flutter:

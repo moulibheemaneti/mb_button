@@ -1,5 +1,9 @@
 ## Current release
 
+## [3.0.3] - 24 May 2026
+### Release Notes:
+* Upgrade flutter version to 3.44.0
+
 ## [3.0.2] - 07 February 2026
 ### Release Notes:
 * Increased minimum Flutter SDK version to 3.10.8 in `pubspec.yaml`.
